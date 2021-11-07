@@ -53,8 +53,17 @@
  
 <center>
 
-    <A href="javascript:window.location.reload()" target="_self">اضغط هنا لتحديث الصفحة</A>
-      <p></p>
+<A href="javascript:window.location.reload()" target="_self">اضغط هنا لتحديث الصفحة</A>
+     
+  <SCRIPT LANGUAGE="JavaScript"> 
+var m = "آخر تحديث للموقع كان بتاريخ " + document.lastModified; 
+var p = m.length-8; 
+document.writeln("<center><center><font color=white face=tahoma size=5>"); 
+document.write(m.substring(p, 0)); 
+document.writeln("</font></center>");  
+</SCRIPT>
+								
+    <p></p>
  <!---الازرار--!>
 
 <ul class="actions"><li><a href="apps.html" class="button"> تطبيقات البلس </a></li>
@@ -109,16 +118,7 @@ toggles.forEach((toggle) => {
     toggle.parentNode.classList.toggle("active");
   });
 });</script>
-<br>			
-  <SCRIPT LANGUAGE="JavaScript"> 
-var m = "آخر تحديث للموقع كان بتاريخ " + document.lastModified; 
-var p = m.length-8; 
-document.writeln("<center><center><font color=white face=tahoma size=5>"); 
-document.write(m.substring(p, 0)); 
-document.writeln("</font></center>");  
-</SCRIPT>
-  
-<br>
+
 <hr>
   <BODY onLoad="alert('ارحب منور الموقع والله');" onUnload="alert('مع السلامه');"> 
 	  
