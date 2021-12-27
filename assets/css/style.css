@@ -1,8 +1,8 @@
 /*
-	TutuBox Webdesign
-	By @CrafterPika
-	Special Thanks to @DevCasp
-	(c) CrafterPika 2020
+	Roo-t.githyb.io Webdesign
+	By @Hibaldz-Hacker
+	Special Thanks to @Hanoo
+	(c) Hibaldz-Hacker 2022
 	License: none
 */
 
@@ -259,18 +259,24 @@ ul li:nth-child(5):hover{
 
 /* Set a specific color for each brand */
 
-/* Facebook */
 .fa-telegram {
-  background: #36393B;
+  background: #55acee;
   color: white;
    border-radius: 25px;
 }
 
 
 .fa-snapchat {
-  background: #55ACEE;
+  background: #decd35;
   border-radius: 25px;
   color: white;
+}
+
+.fa-instagram {
+  background: #c21745;
+  border-radius: 25px;
+  color: white;
+
 }
 
 
