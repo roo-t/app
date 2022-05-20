@@ -1,0 +1,227 @@
+body {
+
+
+:root {
+ --body-bg-color:#dddddd;
+ --scand-bg-color:#00ffff;
+ --text-color:#000000;
+ --layout-color:#321280;
+}
+body {
+    margin: 0;
+    padding: 0;
+ background: var(--body-bg-color);
+ color: var(--text-color);
+}
+
+
+margin: 0px;
+padding: 0;
+font-family: -apple-system;
+color: #2c2836;
+overflow-x: hidden;
+background-color: #000000;
+-webkit-touch-callout: none;
+user-select: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+}
+a {
+text-decoration: none;
+}
+.card-devs {
+width: 85%;
+display: inline-block;
+border-radius: 20px;
+margin: 10px;
+border: 2px solid #383838;
+}
+.card-devs h1 {
+color: #ffffff;
+font-weight: 800;
+text-align: justify;
+margin-left: 20px;
+}
+.card-devs p {
+color: #ffffff;
+font-weight: 400;
+text-align: justify;
+margin-left: 20px;
+margin-right: 20px;
+}
+.card-devs img {
+width: 120px;
+border-radius: 60px;
+margin: 15px;
+}
+.card-devs a {
+color: #ffffff;
+display: block;
+width: 120px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 10px;
+background-color: #383838;
+margin: 10px;
+display: inline-block;
+}
+.card-devs a:hover {
+color: #ffffff;
+background-color: #383838;
+border: 2px solid #ffffff;
+}
+@font-face {
+font-family: Font;
+src: url(http://kasar.store/fonts/Font.TTF);
+}
+@font-face {
+font-family: Framework7 Icons;
+src: url(fonts/Framework7Icons-Regular.woff2);
+}
+@supports (
+  (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
+) {
+  .nav {
+    font-family: Framework7 Icons;
+    justify-content: center;
+    position: fixed;
+    box-shadow: 1px 2px 10px #383838;
+    bottom: 0px;
+    z-index: 99;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin: 5% auto;
+    left: 0;
+    right: 0;
+    width: 65%;
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+  }
+}
+.nav a:hover {
+color: #111720;
+}
+.nav a {
+font-size: 45px;
+color: rgb(255, 255, 255);
+margin: 15.8px;
+text-shadow: 1px 2px 10px #e0d7d7;
+}
+.apps:hover {
+background-color: rgb(0, 0, 0);
+}
+.apps {	
+width: 85%;
+padding: 8px;
+border-radius: 15px;
+height: 45px;
+border: 2px solid #ffffff;
+margin: 10px;
+}
+.apps img {
+float: left;
+width: 45px;
+border-radius: 23.3%;
+box-shadow: 1px 2px 10px #ffffff;
+}
+.apps h1 {
+font-size: 17px;
+color: #ffffff;
+text-align: justify;
+margin-top: 2px;
+margin-bottom: 0px;
+margin-left: 60px;
+}
+@supports (
+  (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
+) {
+  .top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(163, 163, 163);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+  }
+}
+.top h1 {
+position: fixed;
+top: 5px;
+left: 55px;
+font-size: 25px;
+color: #ffffff;
+}
+.top Img {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+margin-left: 20px; 
+}
+@supports (
+  (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
+) {
+  .name {
+    position: fixed;
+    left: 0%;
+    top: 0px;
+    width: 100%;
+    height: 7%;
+    color: rgb(255, 255, 255);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+  }
+}
+.name h1 {
+color: #ffffff;
+font-size: 20px;
+text-align: center;
+}
+.name a {
+text-decoration: none;
+color: #ffffff;
+font-size: 40px;
+font-family: Framework7 Icons;
+-webkit-appearance: none;
+float: left;
+margin-top: 7px;
+margin-bottom: 0px;
+}
+#myInput {	
+background-position: 10px 12px;
+background-repeat: no-repeat;
+width: 58%;
+height: 1%;
+font-size: 16px;
+padding: 10px 17px 10px 37px;
+margin-bottom: 9px;
+margin: 10px;
+border-radius: 20px;
+color: #ffffff;
+border: none;
+outline: none;
+border: 2px solid #ffffff;
+background: none;
+}
+#myUL {
+/* Remove default list styling */
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+
+@media (prefers-color-scheme: dark) {
+ :root {
+ --body-bg-color:#121212;
+ --scand-bg-color:#403b3b;
+ --text-color:#ffffff;
+ --layout-color:#403b3b;
+ }
+}
